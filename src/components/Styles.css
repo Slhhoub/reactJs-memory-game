@@ -1,0 +1,25 @@
+
+.menu {
+    position: fixed;
+    top: 20px;   /* Ajuste la distance par rapport au haut de l'écran */
+    left: 20px;  /* Fixe le menu à gauche de l'écran */
+    display: flex;
+    flex-direction: column; /* Les boutons s'empilent verticalement */
+    gap: 10px;
+    z-index: 10; /* Assure-toi que le menu est au-dessus des autres éléments */
+  }
+  
+  .menu button {
+    padding: 10px 20px;
+    background-color: #3a5fba;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .menu button:hover {
+    background-color: #2a3d8f;
+  }
+  
